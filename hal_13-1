@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+main(){
+	int n,jml;
+	float r,ta;
+
+	cout<<"Jumlah Angka yang akan dirata-rata kan = ";cin>>jml;
+	int a[jml];
+
+	for(n=0;n<jml;n++){
+		cout<<"Masukkan angka  ke-"<<1+n<<" = ";cin>>a[jml];
+		ta=ta+a[jml];
+	}
+	cout<<endl;
+	r=ta/jml;
+	cout<<"Rata-rata dari angka diatas = "<<r;
+
+	return 0;
+}
